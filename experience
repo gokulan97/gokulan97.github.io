@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gokulan Ravi</title>
+</head>
+<body>
+	<ul class="nav justify-content-center">
+		<li class="nav-item">
+			<a class="nav-link" href="#">Home</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="./projects">Projects</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="./experience">Experience</a>
+		</li>
+		<li>
+			<a class="nav-link" href="./news">News</a>
+		</li>
+		<li>
+			<a class="nav-link" href="./res/CV.pdf">CV</a>
+		</li>
+	</ul>
+	<div class="container" id="main-page">
+		<div class="row">
+			<h1>Work Experience</h1>
+			<table id="experience">
+				<tr>
+					<th>Duration</th>
+					<th>Position</th>
+					<th>Place</th>
+					<th>Description</th>
+				</tr>
+				<tr>
+					<td>Jan-May 2020</td>
+					<td>Graduate Teaching Assistant</td>
+					<td>IIT Madras, Chennai</td>
+					<td>TA for the first offering of SysDL course; explored topics in the intersection of Systems and DL</td>
+				</tr>
+				<tr>
+					<td>Jul-Nov 2019, Jan-May 2020</td>
+					<td>Graduate Teaching Assistant</td>
+					<td>IIT Madras, Chennai</td>
+					<td>TA for nand2tetris course - IITM offering (Fall 2019), NPTEL + Online M.Tech offering (Spring 2020)</td>
+				</tr>
+				<tr>
+					<td>May-Jul 2017</td>
+					<td>Backend Developer Intern</td>
+					<td>Quicklo, Bengaluru</td>
+					<td>Built a tool to construct bank balance sheets from corresponding photos and PDFs.</td>
+				</tr>
+				<tr>
+					<td>Apr 2017 - Feb 2018</td>
+					<td>Webops Core</td>
+					<td>Shaastra, IIT Madras</td>
+					<td>Worked as Webops Head for Shaastra 2018 edition, the annual technical festival of IIT Madras.</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+	<link rel="stylesheet" type="text/css" href="./main.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Spectral+SC:wght@200;300;500&display=swap" rel="stylesheet">
+</body>
+</html>

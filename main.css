@@ -1,0 +1,33 @@
+.nav{
+	padding: 5px;
+	box-shadow: 1px;
+}
+
+#main-page{
+	margin-top: 40px;
+}
+
+#main-photo{
+	width: 100%;
+	border-radius: 50%;
+}
+
+div, li{
+	font-family: 'Spectral SC';
+}
+
+#experience, #experience th, #experience td, #experience tr{
+	border: 1px solid black;
+}
+
+#experience th, #experience td{
+	padding: 2px;
+}
+
+#projects, #projects th, #projects td, #projects tr{
+	border: 1px solid black;
+}
+
+#projects th, #projects td{
+	padding: 2px;
+}
