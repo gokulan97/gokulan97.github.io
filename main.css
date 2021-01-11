@@ -7,14 +7,27 @@
 	margin-top: 40px;
 }
 
-#main-photo{
-	width: 100%;
-	border-radius: 50%;
-}
 
 div, li{
 	font-family: 'Spectral SC';
 }
+
+#main-photo{
+	width: 90%;
+	border-radius: 50%;
+}
+/*@media screen and (min-width: 769px){
+	#main-photo{
+		width: 100%;
+		border-radius: 50%;
+	}
+}
+
+@media screen and (max-width: 768px){
+	#main-photo{
+		width: 60%;
+	}
+}*/
 
 #experience, #experience th, #experience td, #experience tr{
 	border: 1px solid black;
@@ -24,10 +37,9 @@ div, li{
 	padding: 2px;
 }
 
-#projects, #projects th, #projects td, #projects tr{
-	border: 1px solid black;
-}
-
-#projects th, #projects td{
-	padding: 2px;
+.project, .work{
+	margin: 20px 0px;
+	padding: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 100%;
 }
