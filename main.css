@@ -29,6 +29,10 @@ div, li{
 	}
 }*/
 
+#blog-content {
+	font-family: 'Spectral', serif;;
+}
+
 #experience, #experience th, #experience td, #experience tr{
 	border: 1px solid black;
 }
