@@ -14,7 +14,7 @@ div, li{
 
 #main-photo{
 	width: 90%;
-	border-radius: 50%;
+	/*border-radius: 50% 50%;*/
 }
 /*@media screen and (min-width: 769px){
 	#main-photo{
